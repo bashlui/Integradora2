@@ -23,7 +23,7 @@ struct Graph {
     unordered_map<string, int> nombreToId;
     int matAdj[MAX][MAX];
     int next[MAX][MAX];
-
+    
     vector<pair<int, pair<int, int>>> edges;
     vector<pair<int, int>> selectedEdges;
 
